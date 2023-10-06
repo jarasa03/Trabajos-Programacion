@@ -7,7 +7,7 @@ import static java.lang.System.out; // Esta librería en concreto no es necesari
 //@author jarasa03
 
 // Clase pública, solo una pública por fichero
-public class prueba_1 {
+public class UD1_ejercicio_1 {
 
 	// Método main
 	public static void main(String[] args) {
