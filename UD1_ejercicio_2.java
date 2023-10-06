@@ -2,7 +2,7 @@ package unit_1;
 
 // @author jarasa03
 
-public class prueba_2 {
+public class UD1_ejercicio_2 {
 
 	public static void main(String[] args) {
 		// Defino las variables "a", "b", "c" y "d" como boolean porque solo pueden ser verdadero o falso
