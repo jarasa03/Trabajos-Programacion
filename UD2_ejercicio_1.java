@@ -17,12 +17,12 @@ public class UD2_ejercicio_1 {
 		
 		// Con esto de debajo solicito una entrada por el usuario.
 		Scanner entrada = new Scanner(System.in);
-
-		// Cierro la entrada para que no se puedan meter más datos.
-		entrada.close();
 		
 		// Doy el nombre "nombre" a la variable.
 		nombre = entrada.nextLine();
+		
+		// Cierro la entrada para que no se puedan meter más datos.
+		entrada.close();
 		
 		// Imprimo por pantalla Hola y el nombre introducido por el usuario.
 		System.out.println("Hola " + nombre);
