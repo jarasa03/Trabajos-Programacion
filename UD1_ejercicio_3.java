@@ -2,7 +2,7 @@ package unit_1;
 
 // @author jarasa03
 
-public class prueba_3 {
+public class UD1_ejercicio_3 {
 	public static void main(String[] args) {
 		
 		// El print sin "ln" imprime por pantalla y ya está
