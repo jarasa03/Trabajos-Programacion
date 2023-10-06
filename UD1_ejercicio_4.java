@@ -2,7 +2,7 @@ package unit_1;
 
 // @author jarasa03
 
-public class prueba_4 {
+public class UD1_ejercicio_4 {
 	
 	public static void main(String[] args) {
 		
