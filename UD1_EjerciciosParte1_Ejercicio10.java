@@ -37,6 +37,8 @@ public class UD1_EjerciciosParte1_Ejercicio10 {
 		System.out.println("Introduce el segundo número");
 		num2 = entrada.nextInt();
 		
+		entrada.close();
+		
 		// Condicionante if poniendo condiciones y finalizando con un sino
 		if (num1 > num2) {
 			System.out.println(num1 + " > " + num2);
