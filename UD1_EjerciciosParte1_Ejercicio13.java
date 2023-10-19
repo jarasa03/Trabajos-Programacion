@@ -4,7 +4,7 @@ package unit_1;
 
 import java.util.Scanner;
 
-public class UD1_EjercicioParte1_Ejercicio13 {
+public class UD1_EjerciciosParte1_Ejercicio13 {
 
 	public static void main(String[] args) {
 
