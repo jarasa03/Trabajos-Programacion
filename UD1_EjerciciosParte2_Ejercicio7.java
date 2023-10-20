@@ -2,21 +2,37 @@ package unit_1;
 
 // @author jarasa03
 
+import java.util.Scanner;
+
 public class UD1_EjerciciosParte2_Ejercicio7 {
 
 	public static void main(String[] args) {
 
+		/*
+		 * ENUNCIADO: Crear un programa, que indique si un número es mayor que otro.
+		 * 
+		 */
 		
-		// ENUNCIADO: Crear un programa que muestre el área de un cuadrado de lado 5.
+		// Defino como entero los dos números a leer.
+		int num1;
+		int num2;
 		
-		// Defino la variable "lado" como entero y a la vez le doy el valor 5.
-		int lado = 5;
+		Scanner sc = new Scanner(System.in);
 		
-		// Defino la variable "resul" y le doy el valor de lado * lado.
-		int resul = lado * lado;
-
-		System.out.println("Voy a mostrar el área de un cuadrado de lado = 5");
-		System.out.println("El resultado es: " + resul);
+		System.out.println("Introducirás dos números y te diré cuál es mayor");
+		System.out.println("Introduce el primer número");
+		num1 = sc.nextInt();
+		
+		System.out.println("Introduce el segundo número");
+		num2 = sc.nextInt();
+		
+		if (num1 > num2) {
+			System.out.println(num1 + " es mayor que " + num2);
+		}
+		else {
+			System.out.println(num2 + " es mayor que " + num1);
+		}
+		
 	}
 
 }
