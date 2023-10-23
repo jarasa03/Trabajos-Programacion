@@ -2,8 +2,6 @@ package unit_1;
 
 // @author jarasa03
 
-import java.lang.math;
-
 public class UD1_EjerciciosParte2_Ejercicio13 {
 
 	public static void main(String[] args) {
