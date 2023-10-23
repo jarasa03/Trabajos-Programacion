@@ -26,6 +26,8 @@ public class UD1_EjerciciosParte2_Ejercicio7 {
 		System.out.println("Introduce el segundo número");
 		num2 = sc.nextInt();
 		
+		sc.close();
+		
 		if (num1 > num2) {
 			System.out.println(num1 + " es mayor que " + num2);
 		}
