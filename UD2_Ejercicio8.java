@@ -1,7 +1,5 @@
 package unit_2;
 
-import java.io.Closeable;
-
 // @author jarasa03
 
 import java.util.Scanner;
