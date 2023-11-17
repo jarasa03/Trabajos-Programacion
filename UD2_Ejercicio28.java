@@ -30,10 +30,15 @@ public class UD2_Ejercicio28 {
 		}
 		sc.close();
 		
+		System.out.println(num1);
+		
 		while (num1 < num2) {
 			num1 = num1 + 7;
 			if (num1 <= num2)
 			System.out.println(num1);
+			else {
+				System.out.println(num2);
+			}
 		}
 		
 	}
