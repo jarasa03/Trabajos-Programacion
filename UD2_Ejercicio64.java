@@ -22,7 +22,7 @@ public class UD2_Ejercicio64 {
 		
 		System.out.println("Introduce 5 precios y te los daré con iva.");
 		
-		for (int i = 0; i <5; i++) {// Bucle para asignar valores al array.
+		for (int i = 0; i <5; i++) {// Bucle para asignar valores al array y mostrarlos.
 			array[i] = sc.nextInt();
 			System.out.println(precioConIVA(array[i]));
 		}
