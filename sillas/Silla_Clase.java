@@ -9,11 +9,7 @@ public class Silla_Clase {
 	int numRuedas;
 	
 	boolean puedeRodar() {
-		if (numRuedas > 0) {
-			return true;
-		}
-		else {
-			return false;
-		}
+		return (numRuedas > 0);
 	}
-}
+	}
+
