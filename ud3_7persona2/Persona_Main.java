@@ -29,6 +29,8 @@ public class Persona_Main {
 		Scanner sc = new Scanner(System.in);
 		int edad;
 		String nombre, apellidos, dni;
+		Persona persona1;
+		Persona persona2;
 
 		// Solicito los datos de la primera persona.
 		System.out.println("Introduce el DNI de la primera persona.");
@@ -41,7 +43,7 @@ public class Persona_Main {
 		edad = sc.nextInt();
 		
 		// Zona de instanciado de objetos.
-		Persona persona1 = new Persona(dni, nombre, apellidos, edad);
+		persona1 = new Persona(dni, nombre, apellidos, edad);
 
 		sc.nextLine(); // Para poder introducir una línea despues de un entero.
 
@@ -57,7 +59,7 @@ public class Persona_Main {
 		sc.close();
 
 		// Zona de instanciado de objetos.
-		Persona persona2 = new Persona(dni, nombre, apellidos, edad);
+		persona2 = new Persona(dni, nombre, apellidos, edad);
 		
 		// Imprimo el resultado.
 		if (persona1.mayorDeEdad() != true) {
