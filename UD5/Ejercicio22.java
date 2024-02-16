@@ -18,11 +18,9 @@ public class Ejercicio22 {
 		// Zona de declaración de variables.
 		int[][] array;
 		Scanner sc;
-		int contador;
 		int[] maximos;
 		int[] minimos;
 		double[] medias;
-		int contador2;
 		int max;
 		int min;
 		double media;
@@ -33,8 +31,6 @@ public class Ejercicio22 {
 		minimos = new int[array[0].length];
 		maximos = new int[array[0].length];
 		medias = new double[array[0].length];
-		contador = 0;
-		contador2 = 0;
 		max = 0;
 		min = 0;
 		media = 0;
@@ -46,7 +42,6 @@ public class Ejercicio22 {
 				if (j == 0) { // Bucle para que no tenga en cuenta la inicialización de mis variables en 0.
 					max = array[i][j];
 					min = array[i][j];
-					media = array[i][j];
 				}
 				if (array[i][j] > max) { // Número máximo.
 					max = array[i][j];
@@ -55,19 +50,18 @@ public class Ejercicio22 {
 					min = array[i][j];
 				}
 				media += array[i][j];
-				contador++; // Número de notas de cada alumno para el cálculo de la media.
 
 			}
-			maximos[contador2] = max;
-			minimos[contador2] = min;
-			medias[contador2] = media / array.length;
-			contador2++;
+			maximos[i] = max;
+			minimos[i] = min;
+			medias[i] = media / array[0].length;
+			media = 0;
 		}
 		sc.close();
 
-		for (int i = 0; i < array.length; i++) {
-			medias[i] /= contador; // Cálculo de la media.
-		}
+//		for (int i = 0; i < array.length; i++) {
+//			medias[i] /= contador; // Cálculo de la media.
+//		}
 
 		System.out.print("\t\t\t\t\t\t\t");
 
